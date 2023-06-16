@@ -9,7 +9,7 @@ int s;
 for (s='0'; s <= '9'; s++)
 {
 putchar(s);
-if (d != '9')
+if (s != '9')
 {
 putchar( ',');
 putchar(' ');
