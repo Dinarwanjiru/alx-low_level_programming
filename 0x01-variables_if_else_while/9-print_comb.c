@@ -11,8 +11,8 @@ for (s='0'; s <= '9'; s++)
 putchar(s);
 if (d != '9')
 {
-putchar( ',')
-putchar(' ')
+putchar( ',');
+putchar(' ');
 }
 }
 return (0);
