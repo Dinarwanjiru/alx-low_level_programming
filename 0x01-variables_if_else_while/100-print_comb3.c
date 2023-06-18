@@ -2,7 +2,7 @@
 /**
  * Main - enrty
  * prints all possible different combinations of two digits
- * retur : always 0 
+ * retur:always 0 
  */
 int main(void)
 {
