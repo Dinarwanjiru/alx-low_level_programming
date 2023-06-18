@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
  * main - start of programm
- *
  * Return: 0 false
- *
  */
 int main(void)
 {
