@@ -4,7 +4,7 @@
  * Returns 1 if c is uppercase
  * Returns 0 otherwise
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (x >= 65 && x <= 90)
 	{
