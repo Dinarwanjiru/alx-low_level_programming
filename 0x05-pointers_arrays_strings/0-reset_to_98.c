@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * Main - prints  takes a pointer to an int as parameter
  * updates the value it points to to 98
