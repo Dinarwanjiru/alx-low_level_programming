@@ -1,17 +1,12 @@
+#include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * _memset - fills memory with a constant byte
- *
- * @s: input pointer that represents memory block
- *     to fill
- * @b: characters to fill/set
- * @n: number of bytes to be filled
- *
- * Return: pointer to the filled memory area
- */
+ * _atoi_digit - convert a char to integer.
+ * @x: character to convert.
+ * Return: integer.
+ **/
 
 int _atoi_digit(char x)
 {
@@ -41,7 +36,7 @@ int _isNumber(char *argv)
  *_calloc - allocate array of size * nmemb.
  * @nmemb: number of elements.
  * @size: size of element.
- * Return: pointer to array.
+ * Return:the pointer to array.
  **/
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -63,11 +58,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 /**
  * mul_array - multiply two arrays.
  * @a1: first array.
- * @len1: length of array a1.
+ * @len1:the length of array a1.
  * @a2:  char.
  * @a3: array for result.
  * @lena: length of array a3.
- * Return: pointer to array.
+ * Return:the pointer to array.
  **/
 
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
