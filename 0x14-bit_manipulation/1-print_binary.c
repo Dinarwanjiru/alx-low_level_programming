@@ -3,7 +3,7 @@
 
 /**
  * print_binary - print abinary form of a number
- * @n: first param
+ * @n:the first param
  * Return: zero(sucess)
  */
 
