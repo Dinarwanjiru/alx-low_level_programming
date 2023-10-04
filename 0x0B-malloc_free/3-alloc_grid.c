@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- *alloc_grid -
- *@width:
- *@height:
+ *alloc_grid - eturns a pointer to a 2 dimensional array of integers
+ *@width: grid's width
+ *@height: grid's height
  *
- *Return:
+ *Return: pointer to 2D array
  */
 int **alloc_grid(int width, int height)
 {
@@ -31,11 +31,11 @@ int **alloc_grid(int width, int height)
 		hewi[i] = malloc(sizeof(int) * width);
 		if (hewi[i] == NULL)
 		{
-			for (j = 0; j < i ;j++)
+			for (j = 0; j < i ; j++)
 			{
 				free(hewi[j]);
 			}
-			free (hewi);
+			free(hewi);
 			return (NULL);
 		}
 		for (j = 0; j < width; j++)
